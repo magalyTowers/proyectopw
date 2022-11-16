@@ -10,6 +10,8 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+
+ 
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -62,6 +64,7 @@
   --bs-body-line-height: 1.5;
   --bs-body-color: #212529;
   --bs-body-bg: #fff;
+  
 }
 
 *,
@@ -76,6 +79,24 @@
   position:fixed;
   right:-130px;
   top:230px;
+  width:200px;
+  z-index: 1100;
+}
+.sticky-containerinsta{
+  padding:0px;
+  margin:0px;
+  position:fixed;
+  right:-130px;
+  top:270px;
+  width:200px;
+  z-index: 1100;
+}
+.sticky-containerwhat{
+  padding:0px;
+  margin:0px;
+  position:fixed;
+  right:-130px;
+  top:310px;
   width:200px;
   z-index: 1100;
 }
@@ -131,6 +152,9 @@ body {
   background-color: var(--bs-body-bg);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  background: #FEAC5E;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 
